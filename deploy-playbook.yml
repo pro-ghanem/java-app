@@ -39,11 +39,11 @@
 #     wait_for: port=8080
 #   - name: Adding the healthcheck file
 #     copy:
-#       src: v1-devopsarea-1.0.war
+#       src: java-app-1.0.war
 #       dest: /var/lib/tomcat8/webapps/ROOT/
 
    - name: deploy the generated package to tomcat
      copy:
-       src: ./target/v1-devopsarea-1.0.war
+       src: ./target/java-app-1.0.war
        dest: /var/lib/tomcat8/webapps/
        mode: 0777                                                                                                                                                                              
