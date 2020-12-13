@@ -2,8 +2,8 @@
 
 #  Sample Java App -example
 # Big Note
-# the artifact-id, group-id and version all those have no effect on the the artifacts, just the name 
-# so the based on the name of the app you use it in the browser if the app in pom.xml "java-app-1.0" and in /var/lib//webapps/ is ghanem.war, to access the app u must write : localhost:8080/ghanem , if u want to use the root path remove the ROOT.war and just change the ghanem.war to ROOT.war
+#the artifact-id, group-id and version all those have no effect on the the artifacts, just the name 
+#so the based on the name of the app you use it in the browser if the app in pom.xml "java-app-1.0" and in /var/lib//webapps/ is ghanem.war, to access the app u must write : localhost:8080/ghanem , if u want to use the root path remove the ROOT.war and just change the ghanem.war to ROOT.war
 
  
 to Build war with maven and java-app framework
